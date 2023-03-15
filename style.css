@@ -1,0 +1,50 @@
+.my-style {
+  background-color: #00235B;
+  color: #FFDD83;
+  border: 6px dotted #000;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#my-id {
+  color: #2C3333;
+  background-color: #CBE4DE;
+}
+
+p
+{
+  color: #9E4784;
+  background-color: 617143;
+}
+.parent {
+  background-color: #DF7857;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.child {
+
+  background-color: #FFEBB4;
+  height: 200px;
+  width: 200px;
+}
+
+  body {
+  background-color: #8F43EE;
+  padding: 200px;
+}
+
+ @media (min-width=768px) {
+  body {
+    background-color: #413543;
+  }
+  }
